@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background Shield -->
+  <path d="M50,5 L90,20 L90,45 C90,70 75,85 50,95 C25,85 10,70 10,45 L10,20 L50,5 Z" fill="#2e7d32" />
+
+  <!-- Soccer Ball -->
+  <circle cx="50" cy="50" r="25" fill="#ffffff" />
+
+  <!-- Soccer Ball Pattern -->
+  <path d="M50,25 L60,30 L65,40 L60,50 L50,55 L40,50 L35,40 L40,30 Z" fill="#333333" />
+  <circle cx="50" cy="40" r="3" fill="#333333" />
+  <circle cx="40" cy="50" r="3" fill="#333333" />
+  <circle cx="60" cy="50" r="3" fill="#333333" />
+
+  <!-- S for Sarmiento -->
+  <text x="35" y="80" font-family="Arial" font-weight="bold" font-size="12" fill="#ffffff">S F5</text>
+</svg>
