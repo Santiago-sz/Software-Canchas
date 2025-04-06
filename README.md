@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏟️ Sistema de Gestión de Canchas con Buscador de Rivales
 
-## Getting Started
+Este proyecto es una solución integral para la **gestión de canchas deportivas**, que permite tanto la **administración de reservas y alquileres**, como una innovadora funcionalidad para **buscar rivales** y armar partidos de manera colaborativa y dinámica.
 
-First, run the development server:
+## 🎯 Objetivo
+
+Facilitar la organización de turnos, usuarios y encuentros deportivos en clubes, complejos o espacios recreativos, todo desde una misma plataforma.
+
+## 🧩 Funcionalidades principales
+
+- 🗓️ **Gestión de reservas de canchas**
+- 👤 **Registro y autenticación de usuarios**
+- 📅 **Visualización de horarios disponibles**
+- 🧠 **Buscador de rivales**: conectá con otros jugadores para armar partidos
+- 📊 **Panel de administración para control general**
+- 🔔 **Notificaciones automáticas sobre turnos y rivales encontrados**
+
+## ⚙️ Tecnologías utilizadas
+
+### 🖥️ Frontend
+- **React** + **Vite** → interfaz moderna, rápida y responsiva
+- **TailwindCSS** / CSS Modules para estilos
+- Consumo de API con `fetch` o `axios`
+
+### 🔧 Backend
+- **Next.js** (API Routes) → para la lógica de negocio y manejo de datos
+- Manejo de rutas protegidas y controladores desde la misma estructura del proyecto
+
+### 🗄️ Base de Datos
+- (Adaptable) MySQL / PostgreSQL / MongoDB según el proveedor o necesidad
+
+### 🔐 Autenticación
+- JWT Tokens para proteger las rutas privadas
+
+## 📂 Estructura del proyecto
+
+/frontend/ # Proyecto React con Vite /backend/ # Proyecto Next.js como API /README.md
+
+bash
+Copiar
+Editar
+
+## 🚀 ¿Cómo correr el proyecto?
+
+### 1. Clonar el repositorio
 
 ```bash
+git clone https://github.com/tu-usuario/gestion-canchas.git
+cd gestion-canchas
+2. Instalar dependencias
+Frontend (React + Vite)
+bash
+Copiar
+Editar
+cd frontend
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Backend (Next.js API)
+bash
+Copiar
+Editar
+cd backend
+npm install
+npm run dev
+Asegurate de tener configuradas las variables de entorno necesarias en un archivo .env.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📸 Capturas (opcional)
+Acá podrías agregar screenshots de:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Calendario de reservas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Pantalla de búsqueda de rivales
 
-## Learn More
+Panel de administración
 
-To learn more about Next.js, take a look at the following resources:
+🧠 Ideas futuras
+App móvil (React Native o Flutter)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Sistema de ranking y reputación de jugadores
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Modo torneo y ligas
 
-## Deploy on Vercel
+Integración con pasarelas de pago
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🤝 Contribuciones
+Este proyecto nació como una iniciativa académica y práctica. Está abierto a sugerencias, mejoras y nuevas funcionalidades.
+¡Toda colaboración es bienvenida!
